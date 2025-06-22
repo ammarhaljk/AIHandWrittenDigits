@@ -53,7 +53,7 @@ model.to(device)
 model.eval()
 
 # Streamlit UI
-st.title("MNIST Digit Generator using VAE")
+st.title("MNIST Digit Generator using VAE (results may be poor because I did not allocate enough time for training the model)")
 num_samples = st.slider("Number of Digits to Generate", 1, 10, 5)
 
 if st.button("Generate"):
